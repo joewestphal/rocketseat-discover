@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+
+div.container{
+    display: flex;
+    gap: 1rem;
+}
+
+aside, main{
+    border: 1px solid;
+    height: 100vw;
+}
+
+aside{
+    flex-basis: 25%;
+}
+
+main{
+    flex: 1;
+}
+

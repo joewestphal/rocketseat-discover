@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: lightblue;
+}
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+ul li:last-child{
+    background-color: black;
+    color: gray;
+    padding: 0.8rem;
+}
