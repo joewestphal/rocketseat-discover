@@ -14,3 +14,5 @@ document.addEventListener('keydown', function(event){
         modalWrapper.classList.add('invisible')
     }
 })
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
